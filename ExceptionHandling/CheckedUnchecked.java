@@ -1,3 +1,6 @@
+/*
+ * Propogation of Exceptions....
+*/
 class MinimumBalanceException extends Exception {
     public String toString() {
         return "Balance should not be less than 5000";
