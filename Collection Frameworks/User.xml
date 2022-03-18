@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Laptop</comment>
+<entry key="Name">Jayesh Soni</entry>
+<entry key="DOB">MAY 14 2001</entry>
+<entry key="City">JAIPUR</entry>
+<entry key="Date">20/02/2022</entry>
+</properties>

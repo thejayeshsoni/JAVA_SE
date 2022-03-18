@@ -4,7 +4,7 @@ public class ArrayListAndIterator {
     public static void main(String[] args) {
 
         ArrayList<Integer> al1 = new ArrayList<>(20); // The size of this Array list will vary when we add or delete
-                                                      // elements in or from this ArrayList.
+        // elements in or from this ArrayList.
 
         ArrayList<Integer> al2 = new ArrayList<>(List.of(50, 60, 70, 80, 90, 100));
 
@@ -47,7 +47,8 @@ public class ArrayListAndIterator {
         }
 
         System.out.println("\n\nPrinting ArrayList using for iterator Loop : ");
-        for (Iterator<Integer> iterator = al1.iterator(); iterator.hasNext();) {  // Here, we can use listIterator instead of only Iterator. Because 
+        for (Iterator<Integer> iterator = al1.iterator(); iterator.hasNext();) { // Here, we can use listIterator
+                                                                                 // instead of only Iterator. Because
             java.lang.Integer x = iterator.next();
             System.out.print(x + ", ");
         }
@@ -56,6 +57,6 @@ public class ArrayListAndIterator {
         al1.forEach((x) -> {
             System.out.print(x + ", ");
         });
-        
+
     }
 }

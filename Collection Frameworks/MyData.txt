@@ -1,0 +1,6 @@
+#Laptop
+#Sun Feb 20 15:17:30 IST 2022
+Brand=DELL
+Processor=i9
+OS=Windows 11
+Price=80,000
